@@ -1,0 +1,15 @@
+{
+  "name": "DebugginTsNodeWithoutCompilingToJs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+
+  },
+  "scripts": {
+    "start:debug": "ts-node --inspect=5858 --debug-brk --ignore false ./index.ts",
+    "start": "ts-node index.ts"
+  },
+  "author": "",
+  "license": "ISC"
+}
