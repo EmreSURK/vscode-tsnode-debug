@@ -7,7 +7,8 @@
       "request": "launch",
       "cwd": "${workspaceRoot}",
       "runtimeArgs": ["-r", "ts-node/register"],
-      "args": ["${workspaceRoot}/index.ts"]
+      "args": ["${workspaceRoot}/index.ts"],
+      "console": "integratedTerminal"
     }
   ]
 }
